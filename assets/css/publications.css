@@ -1,0 +1,90 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+:root {
+  /* --primary-colors --*/
+  --white-ish:#ffffff;
+  --light-gray: #f3f7f9;
+  --bluish-gray: #dce8ed;
+  --blue-light:#829da7;
+  --blue-medium: #2D9596;
+  --blue-medium-rgb: rgb(45, 149, 150);
+  --blue-dark:#265073;
+  --dark-b: #45889f;
+  --gray-black: #1d4e61 ;
+  --darker-b:#053B50;
+
+  /* https://colorhunt.co/palette/f9f7f7dbe2ef3f72af112d4e */
+}
+
+
+.ref-author-lemos {
+    font-weight: 700; 
+    color:var(--darker-b);
+}
+
+.ref-journal{
+    font-weight: 700; 
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:var(--blue-medium);
+}
+
+h4, h5, p{
+    font-family: 'Ubuntu Sans', 'sans-serif';
+}
+
+
+
+li > span > a:hover {
+    color: var(--blue-medium);
+    text-decoration: none;
+    font-size:1.001rem ;
+	font-weight: 700 !important;
+  }
+
+/* .btn-blue{
+    color: var(--white-ish);
+    background-color: var(--blue-medium);
+    border-color: var(--light-gray);
+}   */
+
+.btn-blue{
+    color: var(--white-ish) !important;
+    background-color: var(--blue-light);
+    border-color: var(--light-gray);
+} 
+
+.btn-blue > a{
+    color: var(--white-ish);
+    /* background-color: var(--blue-medium); */
+    border-color: var(--light-gray);
+}
+
+button:hover{
+    font-size:1.001rem ;
+    background-color: var(--blue-medium);
+}
+
+li > button > a:hover{
+    color: var(--white-ish) !important;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: var(--blue-medium) ;
+    text-decoration: none !important;
+    /* font-size:1.3rem !important; */
+}
+
+
+/* body > div > ol:nth-child(7) > li > button > a */
+
+.articles-card{
+	
+	background-color: var(--bluish-gray);
+	border-radius: 5px;
+	border: 1px solid var(--blue-light);
+}

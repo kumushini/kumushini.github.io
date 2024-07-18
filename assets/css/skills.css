@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+:root {
+  /* --primary-colors --*/
+  --white-ish:#ffffff;
+  --light-gray: #f3f7f9;
+  --bluish-gray: #dce8ed;
+  --blue-light:#829da7;
+  --blue-medium: #2D9596;
+  --blue-medium-rgb: rgb(45, 149, 150);
+  --blue-dark:#265073;
+  --dark-b: #45889f;
+  --gray-black: #1d4e61 ;
+  --darker-b:#053B50;
+
+  /* https://colorhunt.co/palette/f9f7f7dbe2ef3f72af112d4e */
+}
+
+
+h4,h5, p{
+    font-family: 'Ubuntu Sans', sans-serif;
+}
+
+a:hover {
+    color: var(--blue-medium) ;
+    text-decoration: none !important;
+    /* font-size:1.3rem !important; */
+}
+
+/* body > div > ol:nth-child(7) > li > button > a */
