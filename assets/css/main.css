@@ -67,6 +67,10 @@ nav {
     font-size:1.2rem !important;
 }
 
+.nav-link.active {
+  border-bottom: 2px solid var(--light-gray); /* white underline for dark navbar */
+}
+
 
 /* buttons */
 
