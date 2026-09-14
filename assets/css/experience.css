@@ -103,19 +103,19 @@ a:hover {
   }
   
   
-  .btn-blue{
-      color: var(--white-ish) !important;
-      /* background-color: none; */
-      /* background-color: var(--blue-medium); */
-      background-color: var(--blue-light);
-      /* border: 2px solid var(--blue-medium); */
-  }  
-  
-  .btn-blue > a{
-      color: var(--white-ish);
-      background-color: var(--blue-medium);
-      border-color: var(--light-gray);
-  }
+
+
+.btn-blue{
+    color: var(--white-ish) !important;
+    background-color: var(--blue-light);
+  border: 2px solid var(--blue-medium);
+}  
+
+.btn-blue > a{
+    color: var(--white-ish);
+    /* background-color: var(--blue-medium); */
+    border-color: var(--light-gray);
+}
 
 
 
@@ -135,6 +135,8 @@ a:hover {
       text-decoration: none;
   }
   
+
+
   
   /* .truncate-height {
       height: 75px; 
